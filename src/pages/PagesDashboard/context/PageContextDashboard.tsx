@@ -22,7 +22,7 @@ export const PageContextProviderDashboard = ({
             }
         }).catch((error: unknown) => {
             const err = error as  Error
-            console.log('Error Obtener Listado Usuario', err.message)
+            console.log('Error Obtener Listado Usuariossss', err.message)
             setFormData({...formData, loading: false})
         })
     }
